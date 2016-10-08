@@ -134,3 +134,17 @@ nav li.home a {
     font-weight: bold;
     color: #575757;
 }
+
+.row{
+
+}
+
+.row .left{
+    float: left;
+    width: 50%;
+}
+
+.row .right{
+    float: left;
+    width: 50%;
+}
