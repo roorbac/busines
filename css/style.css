@@ -1,0 +1,136 @@
+@import url(reset.css);
+
+body {
+    background: url(../images/bg_top.png) no-repeat 50%  0 #0e0e0e;
+
+}
+a {
+     text-decoration: none;
+}
+
+ .wrapper{
+     width: 960px;
+     margin: 0 auto;
+     margin-top: 38px;
+     }
+
+ /*HEADER BEGINER*/
+
+.header {
+     height: 100px;
+     background: #fff;
+     border-radius: 7px 7px 0 0;
+     margin-bottom: 40px;
+}
+
+.header h1{
+    float: left;
+    margin: 30px 0 0 40px;
+}
+
+.tel {
+    background: url(../images/tel.gif) repeat-x 0 0;
+    padding: 6px 21px 10px 94px;
+    float: right;
+    font-family: Arial, san-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c0c0c0;
+}
+
+nav {
+    float: right;
+    clear: right; /*чтобы опуститься ниже на строчку от предыдущего флоата(тел)*/
+
+}
+
+nav li {
+    float: right;
+    margin: 20px 16px 0 0;
+}
+
+nav li a {
+    font-family: Arial, san-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #808080;
+    text-transform: uppercase;
+ padding:3px 16px;
+
+}
+
+nav li a:hover {
+    background: url(../images/bg_home.gif) repeat-x 0 0;
+    color: #fff;
+
+    border-radius: 4px;
+}
+nav li.home a {
+    background: url(../images/bg_home.gif) repeat-x 0 0;
+    padding:3px 16px;
+    color: #fff;
+    border: 1px solid #00224b;
+    border-radius: 4px;
+
+}
+ /*HEADER END*/
+
+  /*slider BEGINER*/
+
+@font-face {
+    font-family: treb;
+    src: url(../fonts/treb.ttf);
+}
+.sliderblock {
+    background: url(../images/bg_slider.png) no-repeat 0 0;
+    height: 332px;
+    padding: 90px 50 0;
+    color: #fff;
+    font-family: treb;
+    line-height: 35px;
+
+}
+
+.fs29 {
+    font-size: 29px;
+    margin-left:10px;
+
+}
+.fs35 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform:uppercase;
+    margin: 10px 0 35px 10px;
+}
+
+.started {
+    background: url(../images/arrow.png) no-repeat 95% 55%,
+    url(../images/bg_button.png) repeat-x 0 0;
+    font-family: treb;
+    font-size: 20px;
+    color: #b90016;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 13px 50px 12px 25px;
+    margin-left: 14px;
+    border-radius: 8px;
+}
+
+                                                /*slider END*/
+
+.list {
+    padding: 40px 0 20px 40px;
+    background: #ededed;
+}
+
+.list li {
+    float: left;
+    padding: 12px 0 30px 90px;
+}
+
+.list h3 {
+    font-family: Arial, Verdana, san-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #575757;
+}
